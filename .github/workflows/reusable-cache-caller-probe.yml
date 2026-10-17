@@ -1,0 +1,8 @@
+name: Reusable cache caller probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  call:
+    uses: milrnacni101/vdp-lock-action-20261015/.github/workflows/reusable-cache-restore-probe.yml@main
